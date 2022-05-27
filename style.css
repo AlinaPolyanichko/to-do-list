@@ -1,0 +1,76 @@
+@import url('http://fonts.cdnfonts.com/css/fontype-rounded');* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 540px;
+    height: 700px;
+    background-color: #fff;
+    box-shadow: 0 20px 80px rgba(0,0,0,0.6);
+    border-radius: 1em;
+    padding: 15px;
+}
+h1 {
+    font-family: 'Fontype Rounded', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+#input-task {
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 65%;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 2em;
+    padding: 5px 10px;
+}
+#add-task-button {
+    color: white;
+    font-size: 20px;
+    width: 8rem;
+    height: 59px;
+    padding: 10px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+    border: none;
+    border-radius: 2em;
+}
+li {
+    list-style: none;
+    font-family: 'Fontype Rounded', sans-serif;
+    font-size: 26px;
+    margin: 40px;
+}
+input[type="checkbox"] + .task  {
+    margin: 20px;
+    position: relative;
+}
+input[type=checkbox]:checked + .task {
+    margin: 20px;
+    position: relative;
+    text-decoration: line-through;
+}
+.delete-btn {
+    font-family: 'Fontype Rounded', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 2em;
+    background: none;
+    border: 1px solid;
+    float: right;
+}
